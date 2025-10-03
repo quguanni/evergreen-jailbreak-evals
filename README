@@ -1,9 +1,0 @@
-# Evergreen Jailbreak Evals (MVP)
-
-Goal: turn red-team attacks into **automated, evergreen** stress tests and measure **risk deltas** from simple hardening (trusted monitoring, tripwires, paraphrase/redaction stubs).
-
-## Quick start
-```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-python eval.py --attacks attacks/base_attacks.json --seed 123 --report out/report.json
